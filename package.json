@@ -1,0 +1,17 @@
+{
+  "name": "human_machine_skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ErrorIntent": "lambda-local -l index.js -h handler -e ./utilities/events/ErrorIntent.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk": "^2.3.0",
+    "firebase-admin": "^7.0.0",
+    "lambda-local": "^1.5.2"
+  }
+}
