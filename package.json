@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ErrorIntent": "lambda-local -l index.js -h handler -e ./utilities/events/ErrorIntent.json"
+    "ErrorIntent": "lambda-local -l index.js -h handler -e ./utilities/events/ErrorIntent.json",
+    "ResetIntent": "lambda-local -l index.js -h handler -e ./utilities/events/ResetIntent.json"
   },
   "author": "",
   "license": "ISC",

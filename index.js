@@ -1,6 +1,7 @@
 const Alexa = require('ask-sdk-core');
 const { HelpIntentHandler } = require('./handlers/HelpIntentHandler');
 const { ErrorHandler } = require('./handlers/ErrorHandler');
+const { ResetHandler } = require('./handlers/ResetHandler');
 const {
   LaunchRequestHandler,
   CancelAndStopIntentHandler,
@@ -14,7 +15,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
-    ErrorHandler)
+    ResetHandler)
   .addErrorHandlers(ErrorHandler)
   .lambda();
 
