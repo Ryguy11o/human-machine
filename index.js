@@ -16,7 +16,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
-    ResetHandler,
+    //ResetHandler,
     NegativeChoiceHandler)
   .addErrorHandlers(ErrorHandler)
   .lambda();

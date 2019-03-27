@@ -26,11 +26,11 @@ function getUserChoice(db){
 }
 
 const ErrorHandler = {
-    canHandle() {
+    canHandle(handlerInput) {
       return true;
     },
     async handle(handlerInput, error) {
-
+      console.log(handlerInput.requestEnvelope.request);
       let firebase = require("firebase-admin");
       let serviceAccount = require("../firebase-auth.json");
       if(!firebase.apps.length){
