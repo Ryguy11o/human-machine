@@ -77,7 +77,7 @@ module.exports = {
   APP_ID: 'amzn1.ask.skill.da7cf341-dfba-4d06-b8d5-78c0723d9c5d',
   WELCOME_MESSAGE: Dialog.intro,
   SKILL_NAME: 'Human Machine Skill',
-  HELP_MESSAGE: 'You can ask me questions about Penn State and the State College area! Currently I support questions about the current academic year, and questions about the CATA bus system.  Or you can say exit.  How may I help you?',
+  HELP_MESSAGE: 'This skill is for research purposes only, please say reset to restart the conversation',
   HELP_REPROMPT: 'What can I help you with?',
   STOP_MESSAGE: 'Goodbye!'
 };
